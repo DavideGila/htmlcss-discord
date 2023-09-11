@@ -18,6 +18,7 @@
     --secondary-color: #FFFFFF;
     --primary-color: #23272A;
     --color-blue: #7289DA;
+    --bg-even: #F5F5F5;
 }
 
 /* debug */
@@ -39,6 +40,23 @@
 .f-center {
     display: flex;
     justify-content: center;
+}
+
+.f-section {
+    display: flex;
+}
+
+.f-section-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.d-flex-main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 /* header */
@@ -127,4 +145,36 @@ h1, #header-p {
     align-content: center;
     margin: 20px;
     font-size: 20px;
+}
+
+/* main */
+
+main section {
+    padding: 60px 0;
+}
+
+.even {
+    background-color: var(--bg-even);
+}
+
+h2 {
+    font-size: 50px;
+    padding: 55px 55px 0;
+}
+
+section p {
+    padding: 40px 90px 0px 55px;
+    line-height: 30px;
+}
+
+.last-section {
+    text-align: center;
+}
+
+#webcam-image {
+    width: 1090px;
+}
+
+h3 {
+    background-image: url(../img/stars.svg);
 }
