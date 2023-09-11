@@ -47,6 +47,10 @@ header {
     background-color: var(--bg-header);
 }
 
+nav {
+    padding-top: 15px;
+}
+
 header a {
     color: var(--secondary-color);
 }
@@ -57,6 +61,18 @@ li {
 
 a {
     text-decoration: none;
+}
+
+#login-button {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    width: 75px;
+    height: 40px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 #hero {
@@ -76,7 +92,7 @@ h1 {
 }
 
 #header-p {
-    font-size: 20px;
+    font-size: 19px;
     line-height: 35px;
 }
 
@@ -85,3 +101,30 @@ h1, #header-p {
     color: var(--secondary-color);
 }
 
+#mac-download{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    width: 195px;
+    height: 50px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 20px;
+    font-size: 20px;
+}
+
+#discord-browser {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    width: 300px;
+    height: 50px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 20px;
+    font-size: 20px;
+}
