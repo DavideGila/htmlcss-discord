@@ -206,7 +206,7 @@ h3 {
 
 /* decoration main */
 
-#wave {
+.wave {
     display: block;
     width: 100%;
     opacity: 0.04;
