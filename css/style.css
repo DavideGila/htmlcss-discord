@@ -204,6 +204,22 @@ h3 {
     margin-top: 60px
 }   
 
+/* decoration main */
+
+#wave {
+    display: block;
+    width: 100%;
+    opacity: 0.04;
+}
+
+#wave-reverse{
+    display: block;
+    width: 100%;
+    transform: rotate(180deg);
+    opacity: 0.04;
+}
+
+
 /* footer */
 
 footer{
