@@ -176,5 +176,7 @@ section p {
 }
 
 h3 {
-    background-image: url(../img/stars.svg);
+    text-align: center;
+    font-size: 28px;
+    line-height: 0;
 }
